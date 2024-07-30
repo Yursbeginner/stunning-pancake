@@ -18,6 +18,7 @@ public class AreaofCircle {
     try (Scanner in = new Scanner(System.in)) {
         System.out.printf("Input Radius: ");
         r = in.nextDouble();
+        in.close();
     }
     //Error for someone who didn't put numbers in input
     catch (Exception e) {
